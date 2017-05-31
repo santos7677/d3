@@ -1,0 +1,21 @@
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+circle:hover {
+  cursor: pointer;
+}
+
+p#info {
+  height: 20px;
+  width: 960px;
+  text-align: right;
+}
